@@ -6,9 +6,80 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="contenido-header">
+        <div class="fondo" id="fondo"></div>
+          <h1 class="texto">LISSETTE'S STORE</h1>
+      </div>
+      <nav class="menu">
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <main>
+  <div class="products">
+
+    <article class="co-12 text-center">
+      <h2 class="subtitulo"><span>Lo que ofrecemos</span></h2>
+				<p class="titulo">Nuestros Produtos</p>
+				<p>Te ofrecemos lo mejor en tecnología.</p>
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <article class="col-6 col-lg-3 py-1"></article>
+                <figure class="producto">
+                  <img src="img/laptop1.jpg" class="img-fluid" alt="">
+							    <figcaption class="overlay">
+								  <p class="overlay-texto">Precio - Laptop LENOVO<br>$30000</p>
+							    </figcaption>
+                </figure>
+          </div>
+        </div>
+
+    <!--
+======================================= FORMULARIO TARJETA =======================================
+-->
+    <div>
+      <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+			<div class="grupo">
+      <p>REGISTRA TU PAGO: <br></p>
+				<label for="inputNumero">Número Tarjeta</label>
+				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+        <p class="smallFields" id="showMaskcard"><b id="numHided"></b></p>
+			</div>
+
+			<div class="grupo">
+				<label for="inputNombre">Nombre</label>
+				<input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+			</div>
+      <p class="smallFields" id="fillInputs"></p>
+				<button type="button" class="btn-enviar" id="validar">VALIDAR</button>
+      </form>
+      <form action="" id="formulario-tarjeta2" class="formulario-tarjeta">
+      <p class="form">GRACIAS POR TU COMPRA <br></p>
+      <p class="smallFields" id="showMaskcard2"><b id="numHided2"></b></p>
+      </form>
+    </div>
+<!--
+======================================= FORMULARIO TARJETA =======================================
+-->
+
+
+
+    </article>
+
+
+  </div>
+
+    </main>
+    <footer class="row justify-content-center redes-sociales">
+      <div class="col-auto">
+        <a href="#"><img src="img/facebook.png" alt=""></a>
+        <a href="#"><img src="img/twitter.png" alt=""></a>
+        <a href="#"><img src="img/instagram-new.png" alt=""></a>
+      </div>
+    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

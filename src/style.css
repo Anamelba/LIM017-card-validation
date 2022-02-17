@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-dark: #170312;
+  --purple-medium: #33032d;
+  --purple-light: #531253;
+  --gray-light: #eaeaea;
+  --white: #f4fffd;
+}
+
+/*body {
+  background: #9fe8e4;
+  font-family: 'Lato', sans-serif;
+} */
+body {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.formulario-tarjeta {
+  background: rgb(255, 255, 255);
+  width: 50%;
+  max-width: 700px;
+  padding: 50px 30px 30px 38px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.formulario-tarjeta label {
+  display:block;
+  color: #7d8994;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.formulario-tarjeta input,
+.btn-enviar {
+  border: 2px solid #CED6E0;
+  font-size: 18px;
+  height: 50px;
+  width: 95%;
+  padding: 5px, 12px;
+  transition: .3s easy all;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.formulario-tarjeta input:hover {
+  /* border: 2px solid #93BDED;*/
+  border: 2px solid #d255d8;
+}
+
+.formulario-tarjeta input:focus {
+  outline: rgb(4,4,4);
+  box-shadow: 1px 7px 10px -5px rgba(90, 116,148,0.3);
+}
+
+.formulario-tarjeta .btn-enviar {
+  border: none;
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  /*background: #2364d2;*/
+  background: #bf1cc7;
+  /*background: --purple-dark*/
+  box-shadow: 2px 2px 10px 0px rgba(0, 85, 212, 0.4);
+  cursor: pointer;
+}
+
+#formulario2 {
+  display: none;
+}
+
+.formulario__grupo-correcto{
+  color: #1ed12d;
+  opacity:1;
+}
+
+.formulario__grupo-incorrecto {
+  color: #bb2929;
+  opacity: 1;
+}
+
+.smallFields {
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #bb2929;
+  opacity: 1;
+  /*display: none; */
+}
+/*display: none;**************************** */
+.contenido-header {
+  width: 100%;
+  height: 70vh;
+  background-image: url(img/port.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenido-header .texto {
+  width: calc(100vw - 20px);
+  height: 100vh;
+  font-size: 90px;
+  font-weight: 400;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: purple;
+  mix-blend-mode: multiply;
+}
+/* ------------------------- */
+/* NAVBAR */
+/* ------------------------- */
+.menu {
+  background-color: var(--purple-medium);
+  width: 100%;
+  position: sticky;
+  top:0;
+  padding: 5px;
+  z-index: 999;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  margin-bottom: 60px;
+  }
+.menu a {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 26px;
+  background-color: var(--purple-medium);
+  margin: 0 10px;
+  transition: .5s ease all;
+  color: var(--gray-light);
+  text-decoration: none;
+}
+.menu a:hover {
+  transform: translateY(18px);
+  background-color: var(--purple-light);
+}
+/* ------------------------- */
+/* Productos */
+/* ------------------------- */
+.products {
+  background: var(--gray-light);
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.products .titulo {
+  width: 70%;
+  font-size: 44px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.products .producto {
+  position: relative;
+  width: 53%;
+}
+.products .overlay {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--purple-light);
+  overflow: hidden;
+  transition: .5s ease;
+}
+.products .producto:hover .overlay {
+  width: 100%;
+  opacity: .8;
+}
+.products .producto .overlay-texto {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  white-space: nowrap;
+  color: var(--white);
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.subtitulo {
+  font-size: 20px;
+  color: var(--purple-dark);
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  z-index: 2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.subtitulo span {
+  background-color: var(--gray-light);
+  padding: 0 15px;
+  z-index: 99;
+  position: relative;
+}
+
+.subtitulo::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background: var(--purple-dark);
+  position: relative;
+  top: -29px;
+  z-index: 1;
+}
+/* ------------------------- */
+/* FOOTER */
+/* ------------------------- */
+.redes-sociales {
+  padding: 10px;
+  background-color: var(--purple-light);
+}
+
+.redes-sociales img {
+  padding: 5px;
+  border-radius: 100%;
+  width: 50px;
+  transition: .3s ease all;
+}
+
+.redes-sociales img:hover {
+  transform: scale(1.2);
+}
+
+#formulario-tarjeta2 {
+  display:none;
+}
