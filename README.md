@@ -260,16 +260,21 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* CREDI CARD VALIDATION - LISSETTE STORE - TIENDA DE TECNOLOGÍA
+* Mi página ofrece productos de tecnología, si el usuario desea realizar la compra, tiene un formulario para ingresar el número de su tarjeta y nombre.
 * La imagen final de tu proyecto.
+ img/portada.png
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+    El usuario son personas en busca de productos de tecnología (laptop).
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+    El usuario puede ingresar un número de tarjeta válido sin temor a registrar un número inválido y realizar un mala compra.
   3. Luego colocarás la foto de tu primer prototipo en papel.
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
   5. Imagen del prototipo final.
 
 #### Visualmente (HTML y CSS)

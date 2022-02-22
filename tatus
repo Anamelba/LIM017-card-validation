@@ -1,0 +1,49 @@
+[33mcommit bf005642266bb99b6dd5bab2a9fe62d88d54d1e3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Vilmarys R <43301644+vilrodriguez@users.noreply.github.com>
+Date:   Thu Feb 17 10:56:05 2022 -0500
+
+    Initial commit
+
+[33mcommit f8436920d30189366136423cbf5d949aad98da0c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a3d89c5 2add247
+Author: Ivy Feraco <unjust@gmail.com>
+Date:   Mon Jan 31 09:25:11 2022 -0500
+
+    Merge pull request #2 from Laboratoria/santiaguf-patch-1
+    
+    [update] added content for readme
+
+[33mcommit 2add2477b86074878c76667007526b1609ea561d[m
+Author: Santiago Bernal B <exactlimon@gmail.com>
+Date:   Mon Jan 31 09:20:21 2022 -0500
+
+    Update README.md
+
+[33mcommit 942ca3f48d98224ebc2e549c60c40f94c6bf8a99[m
+Author: Santiago Bernal B <exactlimon@gmail.com>
+Date:   Mon Jan 31 09:06:51 2022 -0500
+
+    [update] added content for readme
+    
+    added hacker edition,  technical recommendations, and checklist
+
+[33mcommit a3d89c53d20cba5261b5c4428ca34d19157ba5c6[m
+Merge: aa3f2da 91d2631
+Author: Santiago Bernal B <exactlimon@gmail.com>
+Date:   Fri Jan 28 08:25:52 2022 -0500
+
+    Merge pull request #1 from unjust/patch-1
+    
+    quita integrante y remote en el README
+
+[33mcommit 91d26316d4c061389f15d11c4017dc4bc29f6612[m
+Author: Ivy Feraco <unjust@gmail.com>
+Date:   Fri Jan 28 08:18:33 2022 -0500
+
+    quita integrante y remote
+
+[33mcommit aa3f2da9baf26edea47d6e3881d4b07b8506fe59[m
+Author: Santiago Bernal <exactlimon@gmail.com>
+Date:   Wed Jan 19 09:20:17 2022 -0500
+
+    chore(init): Adds project files from curriculum

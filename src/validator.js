@@ -1,9 +1,9 @@
 const validator = {
 //*+***************************************IS_VALID**************************************
   isValid: function(num){
-
   let nCheck = 0, bEven = false;
   for(var n = num.length-1; n >= 0; n--){
+
     var cDigit = num.charAt(n),
     nDigit = parseInt(cDigit, 10);
     if (bEven && (nDigit *= 2) > 9)nDigit -= 9;

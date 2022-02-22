@@ -22,7 +22,7 @@ formulario.inputNombre.addEventListener('keyup', (e)=>
   let valorName = e.target.value;
   formulario.inputNombre.value = valorName.replace(/\d/g, '').toUpperCase();  //  permite solo números y letras mayúsculas
 })
-// CALL FUNCTIONS WHEN PRESS BOTTON SUBMIT ----------------------------------------------------
+// CALL FUNCTIONS WHEN PRESS BOTTON ----------------------------------------------------
 const btnValid = document.querySelector('#validar');
 btnValid.addEventListener("click", (e) =>
 {
@@ -38,7 +38,7 @@ btnValid.addEventListener("click", (e) =>
 
   const num = document.getElementById("inputNumero").value;
 
-  let num1 = num.replace(/\s/g, ''); // Eliminamos espacios en blanco
+  const num1 = num.replace(/\s/g, ''); // Eliminamos espacios en blanco
 
   //maskify
  const maskNumber = validator.maskify(num1);
